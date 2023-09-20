@@ -1,0 +1,4 @@
+1) Run this Command on CommandPrompt from this directory
+	pip install -r requirements-gpu.txt
+2)Go to the generator folder and follow given instructions to train the model
+

@@ -1,2 +1,29 @@
-# Developing-Adversarial-Shirt-Design
-The project intends to design an Anti-Yolo-Detector. An adversarial-shirt design has been developed to protect from Yolo Detectors. This design has been tested on Yolo V3 and V4 and gives satisfactory results. Detailed information on how to run the code can be found in the attached readme file. 
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
