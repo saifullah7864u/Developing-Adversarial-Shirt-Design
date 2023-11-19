@@ -1,4 +1,14 @@
-1) Run this Command on CommandPrompt from this directory
-	pip install -r requirements-gpu.txt
-2)Go to the generator folder and follow given instructions to train the model
+python attack_model.py --model tiny_yolo_v3 --input_images data_sampling_stealth --mask_file test/train_ml6_tshirt.xml --punishment 0.0005 --smoothness_punishment 0.3 --steps 500 --skip_pdb True --num_batches 20 --learning_rate 0.005 --minimise True
 
+
+Use command prompt(from this directory) to run the above command to start training;
+You can modify the above command ;
+Choose your model (between tiny_yolo, tiny_yolo_v3 and tiny_yolo_v4)
+Choose smoothness parameters (Punishment and Smoothness Punishment)
+Choose the folder containing the training images
+Choose the mask file
+Choose number of iterations(Steps) (higher is usually better)
+Choose batch size (heavily dependent on the GPU available memory)
+Choose whether to minimise or maximise loss function
+
+After Training pattern image will be placed in Result Folder
